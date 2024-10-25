@@ -4,18 +4,19 @@ Python code for numerical experiments for a stochastic wave equation on the unit
 coeff_rand_field_v6.py: create the initial random field
 
 Outputs:
+
 FracPDE_Nside2048_instance1kap2p3.mat  with kapp1 = 2.3
 FracPDE_Nside2048_instance1kap4p1.mat       kapp1 = 4.1
 FracPDE_Nside2048_instance1kap4p5.mat       kapp1 = 4.5
 
 ErrorsLtr_wRF_wave.py: compute the average square errors
+
 VarLtr_wave.py: compute the variance 
 VarUxy_wave.py: compute the variance Var|U(x,t) - U(y,t)| over 100 samples
 
 waveU0.py: generate the map of the initial random field
 waveHomoSoln.py: generate homogeneous soln
-waveInhomoSoln.py: generate the inhomogenous solution
-                   could be used to create the full solution
+waveInhomoSoln.py: generate the inhomogenous solution that could be used to create the full solution
 
 waveFullSoln.py: generate the full solution
 
